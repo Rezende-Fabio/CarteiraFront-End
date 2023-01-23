@@ -1,0 +1,22 @@
+@import "./colors.css";
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    height: 10rem;
+    width: 85%;
+    background-color: #fff;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 8rem;
+    background-color: var(--color-green);
+    margin: 0.8rem;
+}
